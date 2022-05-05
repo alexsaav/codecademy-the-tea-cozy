@@ -1,0 +1,134 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: #e5e5e5;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0;
+}
+
+/* NAV */
+
+nav {
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid #e5e5e5;
+    position: fixed;
+    background-color: black;
+    display: block;
+    top: 0px;
+}
+
+.logo {
+    height: 50px;
+    margin-left: 10px;
+    float: left;
+}
+
+nav ul {
+    float: right;
+    list-style: none;
+    margin: 15px auto 0 auto;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    color: #e5e5e5;
+    padding: 0 20px;
+    vertical-align: middle;
+}
+
+
+
+/* MISSION */
+
+.mission-container {
+    background-image: url('./img/img-mission-background.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    width: 1200px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mission-text {
+    background-color: black;
+    color: #e5e5e5;
+    width: 1200px;
+    text-align: center;
+    width: 100%;
+}
+
+/* FEATURED TEA */
+
+#featured-tea {
+    margin-top: 150px;
+}
+
+.featured-container {
+    display: inline-flex;
+    max-width: 1000px;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.tea-box img {
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+}
+
+
+/* LOCATIONS */
+
+.locations-container {
+    background-image: url('./img/img-locations-background.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1200px;
+    height: 500px;
+    margin: 150px auto auto;
+    padding-top: 85px;
+}
+
+.box-container {
+    max-width: 1050px;
+    margin: 15px auto auto auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.location-box {
+    background-color: black;
+    height: 300px;
+    height: auto;
+    margin-bottom: auto;
+    padding: 20px;
+    opacity: 0.8;
+    box-sizing: border-box;
+    flex-basis: 30%;
+}
+
+/* FOOTER */
+
+.contact {
+    margin-top: 100px;
+    height: 200px;
+    text-align: center;
+}
+
+footer {
+    float: left;
+    margin-left: 10px;
+}
